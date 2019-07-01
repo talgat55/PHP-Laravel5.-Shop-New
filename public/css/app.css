@@ -56,3 +56,107 @@ body {
   color: #DD4252;
 }
 
+#center-header {
+  padding: 20px 0;
+}
+
+#center-header #logo img {
+  height: 70px;
+}
+
+#center-header #search-bar {
+  border: 2px solid #eee;
+  border-radius: 43px;
+  position: relative;
+  z-index: 2;
+  padding: 5px 10px;
+}
+
+#center-header #search-bar form {
+  margin: 0;
+}
+
+#center-header #search-bar form input {
+  border: none;
+}
+
+#center-header #search-bar button:active,
+#center-header #search-bar button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#center-header #wish-block {
+  width: 40px;
+}
+
+#center-header #wish-block a {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#center-header #wish-block i {
+  color: #eee;
+  font-size: 22px;
+}
+
+#center-header #wish-block span {
+  position: absolute;
+  top: -4px;
+  right: -5px;
+  color: #DD4252;
+  font-family: "Gotham-Pro";
+}
+
+#center-header #cart .cart a {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+#center-header #cart .cart a i {
+  color: #eee;
+  font-size: 22px;
+}
+
+#center-header #cart .cart a span {
+  position: absolute;
+  top: -4px;
+  right: -5px;
+  color: #DD4252;
+  font-family: "Gotham-Pro";
+}
+
+#center-header #cart .price {
+  font-family: "Gotham-Pro";
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+#bottom-header {
+  padding: 10px 0;
+}
+
+#bottom-header .catalog-navigation {
+  margin: 0;
+  padding: 0;
+}
+
+#bottom-header .catalog-navigation li {
+  list-style: none;
+}
+
+#bottom-header .catalog-navigation li a {
+  text-decoration: none;
+  color: #313131;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 0 8px;
+}
+
+#bottom-header .catalog-navigation li a:hover {
+  color: #DD4252;
+  text-decoration: none;
+}
+

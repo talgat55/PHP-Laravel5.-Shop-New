@@ -1,7 +1,4 @@
 
-// Fonts
-
-
 
 
 // Variables
@@ -59,4 +56,88 @@ body
           color: $main_color
 
 
+
+#center-header
+  padding: 20px 0
+  #logo
+    img
+      height: 70px
+
+
+  #search-bar
+    border: 2px solid #eee
+    border-radius: 43px
+    position: relative
+    z-index: 2
+    padding: 5px 10px
+    form
+      margin: 0
+
+      input
+        border: none
+
+    button:active,
+    button:focus
+      outline: none
+      box-shadow: none
+
+
+  #wish-block
+    width: 40px
+    a
+      position: relative
+      text-decoration: none
+      display: inline-block
+    i
+      color: #eee
+      font-size: 22px
+
+    span
+      position: absolute
+      top: -4px
+      right: -5px
+      color: $main_color
+      font-family: $font_main
+
+  #cart
+    .cart
+      a
+        text-decoration: none
+        position: relative
+        display: inline-block
+
+        i
+          color: #eee
+          font-size: 22px
+
+        span
+          position: absolute
+          top: -4px
+          right: -5px
+          color: $main_color
+          font-family: $font_main
+
+
+    .price
+      font-family: $font_main
+      font-size: 16px
+      padding-left: 20px
+#bottom-header
+  padding: 10px 0
+
+  .catalog-navigation
+    margin: 0
+    padding: 0
+
+    li
+      list-style: none
+
+      a
+        text-decoration: none
+        color: #313131
+        transition: all .3s
+        padding: 0 8px
+        &:hover
+          color: $main_color
+          text-decoration: none
 

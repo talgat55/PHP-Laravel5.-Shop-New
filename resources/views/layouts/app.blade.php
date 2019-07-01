@@ -73,9 +73,112 @@
         </div>
 
     </div>
+    <div id="center-header">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-between">
+                <div class=" col-lg-2 col-xs-12">
+                    <div id="logo">
+                        <a href="{{ route('homePage') }}" title="Главная страница">
+                            <img src="{{ url('images/logo.png') }}" alt="Логотип"/>
+                        </a>
 
+                    </div>
+                </div>
+                <div class="col-lg-7 col-xs-12">
+                    <div id="search-bar">
+                        <form action="/search" method="POST" role="search">
+                            {{ csrf_field() }}
+                            <div class="input-group d-flex align-items-center">
+                                <input type="text" class="form-control" name="q"
+                                       placeholder="Поиск"> <span class="input-group-btn">
+                                        <button type="submit" class="btn btn-default">
+                                           <i class="fas fa-search"></i>
+                                        </button>
+                                    </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xs-12 d-flex align-items-center ">
+                    <div id="wish-block">
+                        <a href="#">
+                            <i class="far fa-heart"></i>
+                            <span>0</span>
+                        </a>
+                    </div>
+                    <div id="cart" class="d-flex">
+                        <div class="cart">
+                            <a href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span>0</span>
+                            </a>
+
+                        </div>
+                        <div class="price">
+                            100 <span> P</span>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bottom-header">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <ul class="catalog-navigation d-flex">
+                    <li>
+                        <a href="#">
+                            ЖЕНЩИНАМ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            МУЖЧИНАМ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            ДЕТЯМ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            ОБУВЬ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            АКСЕССУАРЫ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            КНИГИ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            КАНЦТОВАРЫ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            ЗООТОВАРЫ
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
 </header>
 
 @yield('content')
+
+<link href="{{ url('css/fontawesome-all.css') }}" rel="stylesheet" type="text/css"/>
+
+
 </body>
 </html>
