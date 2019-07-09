@@ -176,7 +176,111 @@
 </header>
 
 @yield('content')
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-xs-12">
+                <h3 class="title">
+                    Компания
+                </h3>
+                <ul class="list-footer-links">
+                    <li>
+                        <a  href="#" class="link">
+                            О нас
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="#" class="link">
+                            Акции
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="#" class="link">
+                            Блог
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="#" class="link">
+                            Контакты
+                        </a>
+                    </li>
 
+                </ul>
+            </div>
+            <div class="col-md-3 col-xs-12">
+                <h3 class="title">
+                    Покупателям
+                </h3>
+                <ul class="list-footer-links">
+                    <li>
+                        <a  href="#" class="link">
+                           Доставка
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="#" class="link">
+                            Оплата
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="#" class="link">
+                            Обмен и возврат
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="#" class="link">
+                            Корпоративным клиентам
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-md-3 col-xs-12">
+                <h3 class="title">
+                    О магазине
+                </h3>
+                <ul class="list-footer-links">
+                    <li>
+                        <a  href="#" class="link">
+                           Гарантии
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="#" class="link">
+                            Поддержка
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="#" class="link">
+                            FAQ
+                        </a>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="col-md-3 col-xs-12">
+                <h3 class="title">
+                    Контакты
+                </h3>
+                <ul class="list-footer-links">
+                    <li>
+                        <p>
+                            Moscow<br>
+                            5th Monetchikovsky Lane  35
+                        </p>
+                    </li>
+                    <li>
+                        <a  href="#" class="link">
+                           +7 (880) 000-00-00
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 <link href="{{ url('css/fontawesome-all.css') }}" rel="stylesheet" type="text/css"/>
 
 
