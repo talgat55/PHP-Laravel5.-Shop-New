@@ -23,8 +23,8 @@ body {
   color: #333;
   padding: 10px;
   text-decoration: none;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all .3s;
+  transition: all .3s;
   display: inline-block;
 }
 
@@ -46,8 +46,8 @@ body {
   color: #333;
   padding: 10px;
   text-decoration: none;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all .3s;
+  transition: all .3s;
   display: inline-block;
 }
 
@@ -150,13 +150,40 @@ body {
 #bottom-header .catalog-navigation li a {
   text-decoration: none;
   color: #313131;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all .3s;
+  transition: all .3s;
   padding: 0 8px;
 }
 
 #bottom-header .catalog-navigation li a:hover {
   color: #DD4252;
   text-decoration: none;
+}
+
+footer .title {
+  font-family: "Gotham-Pro";
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+footer .list-footer-links {
+  margin: 0;
+  padding: 0;
+}
+
+footer .list-footer-links li {
+  list-style: none;
+}
+
+footer .list-footer-links li a {
+  color: #333;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+footer .list-footer-links li a:hover {
+  color: #DD4252;
 }
 

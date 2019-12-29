@@ -8,9 +8,6 @@
 
 
 return [
-
-
-
     'login_link' => 'Sign In',
     'registration_link' => 'Sign Up',
     'about_link' => ' About Us',
@@ -18,5 +15,20 @@ return [
     'catalog_link' => 'Catalog',
     'delivery_link' => 'Delivery',
     'pay_link' => 'Payment',
+    'company' => 'Company',
+    'about_us' => 'About Us',
+    'promotion' => 'Promotion',
+    'blog' => 'Blog',
+    'contacts' => 'Contacts',
+    'byers' => 'Buyers',
+    'delivery' => 'Delivery',
+    'pay' => 'Payment',
+    'exchange' => 'Exchange and returns',
+    'corporative' => 'Corporative clients',
+    'shop' => 'Shop',
+    'guarantees' => 'Guarantees',
+    'support' => 'Support',
+    'faq' => 'FAQ',
+    'city' => 'Moscow',
 
 ];

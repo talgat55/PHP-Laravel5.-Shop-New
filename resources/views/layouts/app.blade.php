@@ -130,42 +130,48 @@
                 <ul class="catalog-navigation d-flex">
                     <li>
                         <a href="#">
-                            ЖЕНЩИНАМ
+                            {{ __('navigation.woman') }}
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            МУЖЧИНАМ
+                            {{ __('navigation.men') }}
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            ДЕТЯМ
+                            {{ __('navigation.child') }}
+
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            ОБУВЬ
+                            {{ __('navigation.shoes') }}
+
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            АКСЕССУАРЫ
+                            {{ __('navigation.accessory') }}
+
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            КНИГИ
+                            {{ __('navigation.books') }}
+
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            КАНЦТОВАРЫ
+                            {{ __('navigation.stationery') }}
+
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            ЗООТОВАРЫ
+                            {{ __('navigation.zoo') }}
+
                         </a>
                     </li>
 
@@ -181,27 +187,28 @@
         <div class="row">
             <div class="col-md-3 col-xs-12">
                 <h3 class="title">
-                    Компания
+                    {{ __('messages.company') }}
                 </h3>
                 <ul class="list-footer-links">
                     <li>
-                        <a  href="#" class="link">
-                            О нас
+                        <a href="#" class="link">
+
+                            {{ __('messages.about_us') }}
                         </a>
                     </li>
                     <li>
-                        <a  href="#" class="link">
-                            Акции
+                        <a href="#" class="link">
+                            {{ __('messages.promotion') }}
                         </a>
                     </li>
                     <li>
-                        <a  href="#" class="link">
-                            Блог
+                        <a href="#" class="link">
+                            {{ __('messages.blog') }}
                         </a>
                     </li>
                     <li>
-                        <a  href="#" class="link">
-                            Контакты
+                        <a href="#" class="link">
+                            {{ __('messages.contacts') }}
                         </a>
                     </li>
 
@@ -209,27 +216,32 @@
             </div>
             <div class="col-md-3 col-xs-12">
                 <h3 class="title">
-                    Покупателям
+                    {{ __('messages.byers') }}
+
                 </h3>
                 <ul class="list-footer-links">
                     <li>
-                        <a  href="#" class="link">
-                           Доставка
+                        <a href="#" class="link">
+                            {{ __('messages.delivery') }}
+
                         </a>
                     </li>
                     <li>
-                        <a  href="#" class="link">
-                            Оплата
+                        <a href="#" class="link">
+                            {{ __('messages.pay') }}
+
                         </a>
                     </li>
                     <li>
-                        <a  href="#" class="link">
-                            Обмен и возврат
+                        <a href="#" class="link">
+                            {{ __('messages.exchange') }}
+
                         </a>
                     </li>
                     <li>
-                        <a  href="#" class="link">
-                            Корпоративным клиентам
+                        <a href="#" class="link">
+                            {{ __('messages.corporative') }}
+
                         </a>
                     </li>
 
@@ -237,22 +249,26 @@
             </div>
             <div class="col-md-3 col-xs-12">
                 <h3 class="title">
-                    О магазине
+                    {{ __('messages.shop') }}
+
                 </h3>
                 <ul class="list-footer-links">
                     <li>
-                        <a  href="#" class="link">
-                           Гарантии
+                        <a href="#" class="link">
+                            {{ __('messages.guarantees') }}
+
                         </a>
                     </li>
                     <li>
-                        <a  href="#" class="link">
-                            Поддержка
+                        <a href="#" class="link">
+                            {{ __('messages.support') }}
+
                         </a>
                     </li>
                     <li>
-                        <a  href="#" class="link">
-                            FAQ
+                        <a href="#" class="link">
+                            {{ __('messages.faq') }}
+
                         </a>
                     </li>
 
@@ -261,18 +277,18 @@
             </div>
             <div class="col-md-3 col-xs-12">
                 <h3 class="title">
-                    Контакты
+                    {{ __('messages.contacts') }}
                 </h3>
                 <ul class="list-footer-links">
                     <li>
                         <p>
-                            Moscow<br>
-                            5th Monetchikovsky Lane  35
+                            {{ __('messages.city') }} <br>
+                            5th Monetchikovsky Lane 35
                         </p>
                     </li>
                     <li>
-                        <a  href="#" class="link">
-                           +7 (880) 000-00-00
+                        <a href="#" class="link">
+                            +7 (880) 000-00-00
                         </a>
                     </li>
 

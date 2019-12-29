@@ -8,9 +8,6 @@
 
 
 return [
-
-
-
     'login_link' => 'Войти',
     'registration_link' => 'Зарегистрироваться',
     'about_link' => 'О Компании',
@@ -18,5 +15,20 @@ return [
     'catalog_link' => 'Каталог',
     'delivery_link' => 'Доставка',
     'pay_link' => 'Оплата',
+    'company' => 'Компания',
+    'about_us' => 'О нас',
+    'promotion' => 'Акции',
+    'blog' => 'Блог',
+    'contacts' => 'Контакты',
+    'byers' => 'Покупателям',
+    'delivery' => 'Доставка',
+    'pay' => 'Оплата',
+    'exchange' => 'Обмен и возврат',
+    'corporative' => 'Корпоративным клиентам',
+    'shop' => 'О магазине',
+    'guarantees' => 'Гарантии',
+    'support' => 'Поддержка',
+    'faq' => 'FAQ',
+    'city' => 'Москва',
 
 ];

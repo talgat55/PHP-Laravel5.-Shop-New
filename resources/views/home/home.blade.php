@@ -4,5 +4,18 @@
 
 
 @section('content')
-    <p>This is my body content.</p>
+   <section class="home-slider">
+       <div class="container">
+           <div class="row">
+               <ul class="list-slides">
+                   <li>
+
+                   </li>
+               </ul>
+           </div>
+       </div>
+
+
+   </section>
+
 @endsection
